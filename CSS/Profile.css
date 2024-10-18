@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.profile-info, .appointment {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #e2e2e2;
+    border-radius: 5px;
+}
+
+.appointment {
+    display: flex;
+    flex-direction: column;
+    background: #d4edda;
+}
+
+.appointment strong {
+    margin-bottom: 5px;
+}
+
+#appointmentsContainer {
+    margin-top: 20px;
+}
